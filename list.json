@@ -1,0 +1,213 @@
+{
+  "name": "Samples for OpenWeatherMap API",
+  "products": {
+    "current_weather": {
+      "docs": "http://openweathermap.org/current",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?zip=94040,us&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?q=London,uk&callback=test&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?lat=55.5&lon=37.5&cnt=10&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?q=London&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?q=London&units=metric&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?q=London&units=imperial&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?lat=57&lon=-2.15&cnt=3&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/box/city?bbox=12,32,15,37,10&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/group?id=524901,703448,2643743&units=metric&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?q=London&mode=xml&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/weather?q=London&mode=html&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?q=London&type=like&mode=xml&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/find?q=London&type=accurate&mode=xml&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "forecast_5days": {
+      "docs": "http://openweathermap.org/forecast5",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/forecast?id=524901&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast?q=London,us&mode=xml&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast?zip=94040&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast?q=München,DE&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast?id=524901&lang=zh_cn&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "forecast_16days": {
+      "docs": "http://openweathermap.org/forecast16",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=zh_cn&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?lat=35&lon=139&cnt=10&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?q=London&mode=xml&units=metric&cnt=7&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?zip=94040&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/daily?q=München,DE&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "forecast_hourly": {
+      "docs": "http://openweathermap.org/api/forecast_hourly",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?id=524901&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&mode=xml&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?zip=94040&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?q=München,DE&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/forecast/hourly?id=524901&lang=zh_cn&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "history": {
+      "docs": "http://openweathermap.org/history",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/history/city?id=2885679&type=hour&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/history/city?q=London,UK&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/history/city?lat=41.85&lon=-87.65&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/history/accumulated_temperature?id=2885679&threshold=284&start=1505336400&end=1505941200&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/history/accumulated_precipitation?id=2885679&start=1505336400&end=1505941200&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "uv_index": {
+      "docs": "http://openweathermap.org/api/uvi",
+      "samples": [
+        "http://samples.openweathermap.org/data/2.5/uvi?lat=37.75&lon=-122.37&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/uvi/forecast?lat=37.75&lon=-122.37&appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/2.5/uvi/history?lat=37.75&lon=-122.37&start=1498049953&end=1498481991&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "stations": {
+      "docs": "http://openweathermap.org/stations",
+      "samples": [
+        "http://samples.openweathermap.org/data/3.0/stations?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/stations/816a?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/measurements?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/measurements?station_id=816a&type=h&limit=100&appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "air_pollution": {
+      "docs": "http://openweathermap.org/api/pollution/co",
+      "samples": [
+        "http://samples.openweathermap.org/pollution/v1/co/0.0,10.0/2016-12-25T01:04:08Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/co/0.0,10.0/2016Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/co/0.0,10.0/current.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/o3/0.0,10.0/2016-12-31T12:55:55Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/o3/0.0,10.0/2016Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/o3/0.0,10.0/current.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/so2/0.0,10.0/2016-12-25T01:04:08Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/so2/0.0,10.0/2016Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/so2/0.0,10.0/current.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/no2/0.0,10.0/2016-12-31T12:55:57Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/no2/0.0,10.0/2016Z.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/pollution/v1/no2/0.0,10.0/current.json?appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "weather_alerts": {
+      "docs": "http://openweathermap.org/triggers",
+      "samples": [
+        "http://samples.openweathermap.org/data/3.0/triggers?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/triggers/816a?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/triggers/816a/history?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/data/3.0/triggers/816a/history/71e2?appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "history_bulk": {
+      "docs": "http://openweathermap.org/api/history-bulk",
+      "samples": [
+        "http://samples.openweathermap.org/storage/history_bulk.json?appid=b1b15e88fa797225412429c1c50c122a1",
+        "http://samples.openweathermap.org/storage/history_bulk.csv?appid=b1b15e88fa797225412429c1c50c122a1"
+      ]
+    },
+    "agro": {
+      "current_weather": {
+        "docs": "http://agromonitoring.com/api/current-weather",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/weather?polyid=5aaa8052cbbbb5000b73ff66&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "history_weather": {
+        "docs": "http://agromonitoring.com/api/history-weather",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/weather/history?lat=37.75&lon=-122.37&start=1485700000&end=1485730032&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/weather/history?polyid=5aaa8052cbbbb5000b73ff66&start=1485703465&end=1485780512&&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "forecast_weather": {
+        "docs": "http://agromonitoring.com/api/forecast-weather",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/weather/forecast?lat=35&lon=139&&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/weather/forecast?polyid=5aaa8052cbbbb5000b73ff66&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "current_soil": {
+        "docs": "http://agromonitoring.com/api/current-soil",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/soil?lat=38.410&lon=-98.349&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/soil?polyid=5aaa8052cbbbb5000b73ff66&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "history_soil": {
+        "docs": "http://agromonitoring.com/api/history-soil",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/soil/history?lat=38.410&lon=-98.349&start=1517443200&end=1519776000&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/soil/history?polyid=5aaa8052cbbbb5000b73ff66&start=1517443200&end=1519776000&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "images": {
+        "docs": "http://agromonitoring.com/api/images",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/image/search?polyid=5aaa8052cbbbb5000b73ff66&start=1500336000&end=1508976000&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/stats/1.0/02359768a00/5ac22f004b1ae4000b5b97cf?appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "history_ndvi": {
+        "docs": "http://agromonitoring.com/api/history-ndvi",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/ndvi/history?polyid=5aaa8052cbbbb5000b73ff66&start=1530336000&end=1534976000&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "current_uvi": {
+        "docs": "http://agromonitoring.com/api/current-uvi",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/uvi?lat=38.410&lon=-98.349&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/uvi?polyid=5aaa8052cbbbb5000b73ff66&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "history_uvi": {
+        "docs": "http://agromonitoring.com/api/history-uvi",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/uvi/history?lat=37.75&lon=-122.37&start=1498049953&end=1498481991&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/uvi/history?polyid=5aaa8052cbbbb5000b73ff66&start=1498049953&end=1498481991&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "forecast_uvi": {
+        "docs": "http://agromonitoring.com/api/forecast-uvi",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/uvi/forecast?lat=37.75&lon=-122.37&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/uvi/forecast?polyid=5aaa8052cbbbb5000b73ff66&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "accumulated_temperature": {
+        "docs": "http://agromonitoring.com/api/accumulated-temperature",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/weather/history/accumulated_temperature?lat=37.75&lon=-122.37&threshold=284&start=1517502031&end=1519834831&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/weather/history/accumulated_temperature?polyid=5aaa8052cbbbb5000b73ff66&threshold=284&start=1517502031&end=1519834831&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "accumulated_precipitation": {
+        "docs": "http://agromonitoring.com/api/accumulated_precipitation",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/weather/history/accumulated_precipitation?lat=37.75&lon=-122.37&start=1517502031&end=1519834831&appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/weather/history/accumulated_precipitation?polyid=5aaa8052cbbbb5000b73ff66&start=1517502031&end=1519834831&appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      },
+      "polygons": {
+        "docs": "http://agromonitoring.com/api/polygons",
+        "samples": [
+          "http://samples.openweathermap.org/agro/1.0/polygons?appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/polygons/5abb9fb82c8897000bde3e87?appid=b1b15e88fa797225412429c1c50c122a1",
+          "http://samples.openweathermap.org/agro/1.0/polygons/incorrect?appid=b1b15e88fa797225412429c1c50c122a1"
+        ]
+      }
+    }
+  }
+}
